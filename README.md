@@ -11,21 +11,3 @@ Detalhes:
     <li>O arquivo com o código deve estar com e extensão <b>.lp</b></li>
 </ul>
 
-BNF
-REGRAS LÉXICAS:
-<OP>-> '+' | '-' | '*' | '/' | '=' | '!=' | '>' | '<' | '>=' | '<='
-<ID>-> <LETTER> <LD>*
-<LD>-> <LETTER> | <DIGIT>
-<NUMBER>-> <DIGIT>+
-<LETTER>-> 'a' | 'b' | ... | 'z'
-<DIGIT>-> '0' | '1' | ... | '9'
-
-REGRAS SINTÁTICAS:
-<PROGRAM>-> 'program' '{' <STATEMENT>* '}'
-<STATEMENT>-> <ASSIGNMENT> | <CONDITIONAL> | <LOOP>
-<ASSIGNMENT>-> <ID> '=' <EXPR> ';'
-<CONDITIONAL>-> 'if' <EXPR> '{' <STATEMENT>+ '}' | 
-        		'if' <EXPR> '{' <STATEMENT>+ '}' 'else' '{' <STATEMENT>+ '}'
-<LOOP>-> 'while' <EXPR> '{' <STATEMENT>+ '}'
-<EXPR>-> <ID> | <NUMBER> | '(' <EXPR> ')' | <EXPR> <OP> <EXPR>
-
