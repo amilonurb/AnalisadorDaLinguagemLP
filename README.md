@@ -1,4 +1,4 @@
-<h1>Analisador Léxico Sintático</h1>
+<h1>Analisador Léxico e Sintático</h1>
 
 <h2>Atividade Prática Supervisionada da disciplina Modelos de Linguagem de Programação</h2>
 
