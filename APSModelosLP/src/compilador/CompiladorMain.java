@@ -22,7 +22,7 @@
  * <STATEMENT>-> <ASSIGNMENT> | <CONDITIONAL> | <LOOP>
  * <ASSIGNMENT>-> <ID> '=' <EXPR> ';'
  * <CONDITIONAL>-> 'if' <EXPR> '{' <STATEMENT>+ '}' | 
- * 				  'if' <EXPR> '{' <STATEMENT>+ '}' 'else' '{' <STATEMENT>+ '}'
+ * 				   'if' <EXPR> '{' <STATEMENT>+ '}' 'else' '{' <STATEMENT>+ '}'
  * <LOOP>-> 'while' <EXPR> '{' <STATEMENT>+ '}'
  * <EXPR>-> <ID> | <NUMBER> | '(' <EXPR> ')' | <EXPR> <OP> <EXPR>
  * 

@@ -17,7 +17,7 @@ import java.awt.Font;
 import javax.swing.SwingConstants;
 import compilador.parser.Compilador;
 import compilador.parser.ParseException;
-import compilador.util.FiltroDeArquivo;
+import compilador.util.MyFileFilter;
 import static javax.swing.JOptionPane.*;
 import java.awt.Rectangle;
 import java.io.FileInputStream;
@@ -122,7 +122,7 @@ public class FrmCompilador extends JFrame {
 		fileChooser = new JFileChooser();
 		fileChooser.setDialogTitle("Escolha o arquivo");
 		fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-		fileChooser.addChoosableFileFilter(new FiltroDeArquivo());
+		fileChooser.addChoosableFileFilter(new MyFileFilter());
 		//fileChooser.setAcceptAllFileFilterUsed(true);
 		int result = fileChooser.showOpenDialog(this);		
 		if (result == JFileChooser.CANCEL_OPTION)

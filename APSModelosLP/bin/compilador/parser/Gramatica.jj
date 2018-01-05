@@ -42,13 +42,14 @@ public class Compilador {
 		} while(token.kind != 0);
 	}
 
+	/*
 	public static void main(String[] args, String s) {
 		try {
 		} catch(Error error) {
 			System.err.println(error.getMessage());
 		}
 	}
-
+	*/
 	
 }
 PARSER_END(Compilador)
