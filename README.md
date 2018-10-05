@@ -1,8 +1,7 @@
-<h1>Analisador Léxico e Sintático</h1>
+# Analisador Léxico e Sintático
+Atividade Prática Supervisionada da disciplina **Modelos de Linguagem de Programação**
 
-<h2>Atividade Prática Supervisionada da disciplina <strong>Modelos de Linguagem de Programação</strong></h2>
-
-Tarefa: criação de um analisador léxico e sintático para a linguagem de exemplo especificada na aula sobre BNF
+_Tarefa: criação de um analisador léxico e sintático para a linguagem de exemplo especificada na aula sobre BNF_
 
 Detalhes:
 <ul>
